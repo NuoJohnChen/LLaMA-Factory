@@ -1,13 +1,14 @@
 ### Note: DO NOT use quantized model or quantization_bit when merging lora adapters
 
 ### model
-model_name_or_path: meta-llama/Meta-Llama-3-8B-Instruct
-adapter_name_or_path: saves/llama3-8b/lora/sft
+model_name_or_path: /disk1/nuochen/models/Llama-3.2-3B-Instruct
+adapter_name_or_path: /disk1/nuochen/models/diabetes
 template: llama3
 trust_remote_code: true
 
 ### export
-export_dir: output/llama3_lora_sft
-export_size: 5
+export_dir: /disk1/nuochen/models/diabetes_merge
+export_size: 2
+
 export_device: cpu
 export_legacy_format: false

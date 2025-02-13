@@ -1,0 +1,13 @@
+### Note: DO NOT use quantized model or quantization_bit when merging lora adapters
+
+### model
+model_name_or_path: /ssd1/models/Qwen2.5-1.5B/
+adapter_name_or_path: /shared/ssd/models/fl-MED-SYN1-CLEVELAND-train/,/shared/ssd/models/fl-MED-SYN1-HUNGARIAN/,/shared/ssd/models/fl-MED-SYN1-SWITZERLAND/,/shared/ssd/models/fl-MED-SYN1-VA/
+template: qwen
+finetuning_type: lora
+trust_remote_code: true
+
+export_dir: /ssd1/models/Qwen2.5-1.5B-fl-MED-SYN1/
+export_size: 2
+export_device: cpu
+export_legacy_format: false

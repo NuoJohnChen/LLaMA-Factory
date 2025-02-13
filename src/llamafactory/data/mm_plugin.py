@@ -1263,4 +1263,5 @@ def get_mm_plugin(
     if name not in PLUGINS:
         raise ValueError(f"Multimodal plugin `{name}` not found.")
 
+
     return PLUGINS[name](image_token, video_token, audio_token)

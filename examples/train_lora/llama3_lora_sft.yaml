@@ -1,5 +1,5 @@
 ### model
-model_name_or_path: meta-llama/Meta-Llama-3-8B-Instruct
+model_name_or_path: /disk1/nuochen/models/Llama-3.2-3B-Instruct
 trust_remote_code: true
 
 ### method
@@ -10,7 +10,7 @@ lora_rank: 8
 lora_target: all
 
 ### dataset
-dataset: identity,alpaca_en_demo
+dataset: adult
 template: llama3
 cutoff_len: 2048
 max_samples: 1000
@@ -18,7 +18,7 @@ overwrite_cache: true
 preprocessing_num_workers: 16
 
 ### output
-output_dir: saves/llama3-8b/lora/sft
+output_dir: /disk1/nuochen/models/adult
 logging_steps: 10
 save_steps: 500
 plot_loss: true

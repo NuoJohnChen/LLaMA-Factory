@@ -1,0 +1,4 @@
+model_name_or_path: /ssd1/models/Qwen2.5-7B-Instruct-paper64shot-sft
+template: qwen
+infer_backend: huggingface  # choices: [huggingface, vllm]
+trust_remote_code: true

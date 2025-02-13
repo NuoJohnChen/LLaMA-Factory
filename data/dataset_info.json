@@ -1,4 +1,71 @@
 {
+  "paperprof": {
+    "file_name": "/shared/hdd/junyi/prof_papers_test_newprompt19/data_list.json",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "paper32shot": {
+    "file_name": "/shared/hdd/junyi/iclr24_32shot/data_list.json",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "paper64shot": {
+    "file_name": "/shared/hdd/junyi/iclr24_64shot/data_list.json",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "papertrain": {
+    "file_name": "/shared/ssd/ConferenceQA_train/data_list.json",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "papertest": {
+    "file_name": "/shared/ssd/ConferenceQA_test/data_list.json",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "adult": {
+      "file_name": "/home/nuochen/ScaleBiO/synllm_transfer/adult/train/train.json",
+      "columns": {
+          "prompt": "input",
+          "response": "output"
+      },
+      "num_samples": 10000
+  },
+  "diabetes": {
+      "file_name": "/home/nuochen/ScaleBiO/synllm_transfer/diabetes/train/train.json",
+      "columns": {
+          "prompt": "input",
+          "response": "output"
+      }
+  },
+  "german": {
+      "file_name": "/home/nuochen/ScaleBiO/synllm_transfer/german/train/train.json",
+      "columns": {
+          "prompt": "input",
+          "response": "output"
+      }
+  },
   "identity": {
     "file_name": "identity.json"
   },

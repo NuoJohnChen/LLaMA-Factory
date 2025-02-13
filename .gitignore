@@ -1,3 +1,10 @@
+Assignment_2_diffussion_副本.ipynb
+cs6206/
+data/
+mnist_data/
+wandb/
+review.json
+Qwen2.5-7B-Instruct_generated_predictions.jsonl
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
